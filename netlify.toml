@@ -14,11 +14,6 @@
   command = "remix watch"
   port = 3000
 
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/server"
-  status = 200
-
 [[headers]]
   for = "/build/*"
   [headers.values]
@@ -31,7 +26,7 @@
     group = "Testing Built Site"
 
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "https://www.eventbrite.com/o/befunny-60651135703"
   status = 200
   force = true # COMMENT: ensure that we always redirect
