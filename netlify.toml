@@ -29,3 +29,11 @@
   [plugins.inputs]
     record = true
     group = "Testing Built Site"
+
+[[redirects]]
+  from = "/"
+  to = "https://www.eventbrite.com/o/befunny-60651135703"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
