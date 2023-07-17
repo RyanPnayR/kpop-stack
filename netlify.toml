@@ -26,6 +26,6 @@
     group = "Testing Built Site"
 
 [[redirects]]
-  from = "/*"
+  from = "*"
   to = "https://www.eventbrite.com/o/befunny-60651135703"
   status = 200
